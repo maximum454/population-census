@@ -1,0 +1,40 @@
+.form-signin{
+	background-color: #fff;
+	padding: 20px 115px 60px;
+	border-radius: 20px;
+	text-align: center;
+	&__title{
+		color: #3f8add;
+		font-size: 24px;
+		font-weight: 900;
+		line-height: 1;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 40px;
+	}
+	&__img{
+		width: 91px;
+		margin: 0 auto 40px;
+	}
+
+	.btn-link{
+		color: #808080;
+	}
+	input{
+		padding-left: 0;
+		padding-right: 0;
+		border: none;
+		border-bottom: 2px solid #cccccc;
+		border-radius: 0;
+	}
+	&__in{
+		color: #000;
+		font-size: 24px;
+		font-weight: bold;
+	}
+	&__reg{
+		color: #808080;
+		font-size: 22px;
+
+	}
+}
