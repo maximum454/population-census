@@ -1,5 +1,19 @@
 .nav {
 	border-top: 25px solid #3f8add;
+	&__list{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-align: right;
+		li{
+			margin-bottom: 15px;
+		}
+		a{
+			color: #003c7f;
+			font-size: 21px;
+			font-weight: bold;
+		}
+	}
 	.navbar-brand{
 		display: block;
 		margin-right: 30px;
@@ -39,6 +53,26 @@
 			background-color: #003c7f;
 			width: 33px;
 			height: 3px;
+		}
+	}
+	.close{
+		top: 20px;
+		right: 60px;
+		padding: 1rem;
+	}
+	.modal-dialog{
+		max-width: 480px;
+		margin-right: 0;
+	}
+	.modal-content{
+		border-radius: 30px 0 30px 30px;
+		padding: 50px 125px 50px 50px;
+		.form-control{
+			padding-left: 0;
+			padding-right: 0;
+			border: none;
+			border-bottom: 2px solid #cccccc;
+			border-radius: 0;
 		}
 	}
 }
