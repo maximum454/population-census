@@ -1,39 +1,44 @@
-<header class="header">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="8000">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="img/gostynaya4.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
+<section class="header jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 align-self-center">
+                <div class="header__title">ХАЛЫҚ САНАҒЫ 2019</div>
+                <div class="header__title mb-4">ПЕРЕПИСЬ НАСЕЛЕНИЯ 2019</div>
+                <p class="mb-4">Перепись населения&nbsp;&mdash; это процесс сбора демографических, экономических и&nbsp;социальных
+                    данных, характеризующих каждого жителя страны или территории по&nbsp;состоянию на&nbsp;определенный
+                    момент времени и&nbsp;получаемых на&nbsp;основе индивидуального опроса.</p>
+
+                <div class="d-flex">
+                    <div class="mr-4"><img src="img/17days.png" alt=""></div>
+                    <div class=""><img src="img/number.png" alt=""></div>
                 </div>
+
+            </div>
+            <div class="col-lg-6">
+                <form class="form-signin">
+                    <div class="form-signin__img"><img src="img/logo.svg" alt=""></div>
+                    <h2 class="form-signin__title">Пройти перепись населения<br> в&nbsp;онлайн режиме</h2>
+                    <div class="form-group d-flex justify-content-between">
+                        <a href="#" class="form-signin__in">Вход</a>
+                        <a href="#" class="form-signin__reg">Регистрация</a>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control"
+                               placeholder="Введите адрес электронной почты"
+                               required="" autofocus="">
+                    </div>
+                    <div class="form-group">
+
+                        <input type="password" class="form-control" placeholder="Пароль"
+                               required="">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">ВХОД</button>
+                    </div>
+                    <a class="btn btn-link" href="#">Забыли пароль?</a>
+                </form>
             </div>
         </div>
+
     </div>
-    <div class="header__inner">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <h1 class="header__title">Натяжные потолки<br> по цене 1500 тг.м2</h1>
-                    <p class="header__subtitle">
-                        Закажи потол этой зимой и получи скидку 20%
-                    </p>
-                </div>
-                <div class="col-lg-4 ml-auto">
-                    <form class="form">
-                        <div class="form__title">Мы свяжимся с вами</div>
-                        <div class="form-group">
-                            <label for="exampleInputName1">Введите ваше имя</label>
-                            <input type="text" class="form-control" id="exampleInputName1"
-                                   placeholder="Например: Максим Владимирович">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPhone1">Введите ваш телефон</label>
-                            <input type="text" class="form-control" id="exampleInputPhone1"
-                                   placeholder="+7 (747) 774-70-47">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Заказать</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+</section>

@@ -1,25 +1,28 @@
-*{
+* {
 	box-sizing: border-box;
 }
-html, body{
+
+html, body {
 	height: 100%;
 	font-family: $fonts1;
 
 }
-.hidden{
+
+.hidden {
 	display: none;
 }
-.wrp{
+
+.wrp {
 	.btn-primary {
 		color: #fff;
 		font-size: 24px;
 		font-weight: bold;
 		text-transform: uppercase;
-		background: rgb(38,133,236);
-		background: -moz-linear-gradient(left, rgba(38,133,236,1) 0%, rgba(124,212,254,1) 100%);
-		background: -webkit-linear-gradient(left, rgba(38,133,236,1) 0%,rgba(124,212,254,1) 100%);
-		background: linear-gradient(to right, rgba(38,133,236,1) 0%,rgba(124,212,254,1) 100%);
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2685ec', endColorstr='#7cd4fe',GradientType=1 );
+		background: rgb(38, 133, 236);
+		background: -moz-linear-gradient(left, rgba(38, 133, 236, 1) 0%, rgba(124, 212, 254, 1) 100%);
+		background: -webkit-linear-gradient(left, rgba(38, 133, 236, 1) 0%, rgba(124, 212, 254, 1) 100%);
+		background: linear-gradient(to right, rgba(38, 133, 236, 1) 0%, rgba(124, 212, 254, 1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2685ec', endColorstr='#7cd4fe', GradientType=1);
 		border-radius: 15px;
 		border: none;
 		&:hover {
@@ -29,6 +32,43 @@ html, body{
 		}
 	}
 }
+
+.modal-backdrop {
+	background-color: rgb(38, 133, 236);
+	opacity: .6;
+}
+.close{
+	position: absolute;
+	top: 27px;
+	right: 33px;
+	opacity:1;
+	&:before{
+		content: '';
+		position: absolute;
+		top: 14px;
+		left: 3px;
+		transform: rotate(45deg);
+		background-color: #003c7f;
+		width: 25px;
+		height: 2px;
+	}
+	&:after{
+		content: '';
+		position: absolute;
+		top: 14px;
+		left: 3px;
+		transform: rotate(-45deg);
+		background-color: #003c7f;
+		width: 25px;
+		height: 2px;
+	}
+}
+@media (min-width: 576px) {
+	.modal-dialog {
+		max-width: 900px;
+	}
+}
+
 @media (min-width: 1200px) {
 	.container {
 		max-width: 1368px;

@@ -1,9 +1,9 @@
-<section class="link">
+<section class="link" id="link">
     <h2 class="link__title">Полезные ссылки</h2>
     <div class="container">
         <div class="row justify-content-center">
             <div class="link__item align-self-center">
-                <div class="link__name">Часто задаваемые
+                <div class="link__name" data-toggle="modal" data-target="#linkModal1">Часто задаваемые
                     вопросы</div>
 
             </div>
@@ -25,9 +25,57 @@
                 </div>
             </div>
             <div class="link__item align-self-center">
-                <div class="link__name">Заполнить форму
-                    обратной связи</div>
+                <div class="link__name" data-toggle="modal" data-target="#linkModal2">Заполнить форму обратной связи</div>
             </div>
         </div>
     </div>
+    <!-- частные вопросы -->
+    <div class="modal fade" id="linkModal1" tabindex="-1" role="dialog" aria-labelledby="linkModalLabel1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title-v2" id="linkModalLabel1">Часто задаваемые вопросы</h4>
+                </div>
+                <div class="modal-body">
+                    <p><b>Поле вопроса поле вопроса поле вопроса</b><br />
+                        Идейные соображения высшего порядка, а&nbsp;также рамки и&nbsp;место обучения кадров представляет собой интересный эксперимент проверки дальнейших направлений развития. Равным образом рамки и&nbsp;место обучения кадров позволяет оценить значение существенных финансовых и&nbsp;административных условий.</p>
+                    <p><b>Поле вопроса поле вопроса поле вопроса</b><br />
+                        Идейные соображения высшего порядка, а&nbsp;также рамки и&nbsp;место обучения кадров представляет собой интересный эксперимент проверки дальнейших направлений развития. Равным образом рамки и&nbsp;место обучения кадров позволяет оценить значение существенных финансовых и&nbsp;административных условий.</p>
+                    <p><b>Поле вопроса поле вопроса поле вопроса</b><br />
+                        Идейные соображения высшего порядка, а&nbsp;также рамки и&nbsp;место обучения кадров представляет собой интересный эксперимент проверки дальнейших направлений развития. Равным образом рамки и&nbsp;место обучения кадров позволяет оценить значение существенных финансовых и&nbsp;административных условий.</p>
+                    <p><b>Поле вопроса поле вопроса поле вопроса</b><br />
+                        Идейные соображения высшего порядка, а&nbsp;также рамки и&nbsp;место обучения кадров представляет собой интересный эксперимент проверки дальнейших направлений развития. Равным образом рамки и&nbsp;место обучения кадров позволяет оценить значение существенных финансовых и&nbsp;административных условий.</p>
+                    <p><b>Поле вопроса поле вопроса поле вопроса</b><br />
+                        Идейные соображения высшего порядка, а&nbsp;также рамки и&nbsp;место обучения кадров представляет собой интересный эксперимент проверки дальнейших направлений развития. Равным образом рамки и&nbsp;место обучения кадров позволяет оценить значение существенных финансовых и&nbsp;административных условий.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- обратная форма -->
+    <div class="modal fade" id="linkModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title" id="myModalLabel">ОБРАТНАЯ СВЯЗЬ</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Введите ваши ФИО">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Введите ваш номер телефона">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="message-text" placeholder="Введите ваш вопрос"></textarea>
+                        </div>
+                        <input type="submit" class="btn btn-primary" value="ОТПРАВИТЬ">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </section>

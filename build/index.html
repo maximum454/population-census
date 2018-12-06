@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <title>Перепись населения</title>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- Twitter Card data -->
+    <meta name="twitter:site" content="">
+    <meta name="twitter:title" content="Перепись населения">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+    
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Перепись населения">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="">
+    <meta property="og:site_name" content="">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/population.css">
+</head>
+<body>
+<div class="wrp">
+    <nav class="nav navbar navbar-expand-lg navbar-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo.svg" width="42" height="80" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1"
+                    aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav mr-auto" id="menu">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#news">Новости</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#video">Видеоинструкции</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#stages">Этапы переписи</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#link">Полезные ссылки</a>
+                    </li>
+                </ul>
+                <div class="my-2 my-lg-0">
+                    <div class="dropdown">
+                        <button class="btn btn-toggler dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span></span>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="header jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 align-self-center">
+                    <div class="header__title">ХАЛЫҚ САНАҒЫ 2019</div>
+                    <div class="header__title mb-4">ПЕРЕПИСЬ НАСЕЛЕНИЯ 2019</div>
+                    <p class="mb-4">Перепись населения&nbsp;&mdash; это процесс сбора демографических, экономических и&nbsp;социальных
+                        данных, характеризующих каждого жителя страны или территории по&nbsp;состоянию на&nbsp;определенный
+                        момент времени и&nbsp;получаемых на&nbsp;основе индивидуального опроса.</p>
+    
+                    <div class="d-flex">
+                        <div class="mr-4"><img src="img/17days.png" alt=""></div>
+                        <div class=""><img src="img/number.png" alt=""></div>
+                    </div>
+    
+                </div>
+                <div class="col-lg-6">
+                    <form class="form-signin">
+                        <div class="form-signin__img"><img src="img/logo.svg" alt=""></div>
+                        <h2 class="form-signin__title">Пройти перепись населения<br> в&nbsp;онлайн режиме</h2>
+                        <div class="form-group d-flex justify-content-between">
+                            <a href="#" class="form-signin__in">Вход</a>
+                            <a href="#" class="form-signin__reg">Регистрация</a>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control"
+                                   placeholder="Введите адрес электронной почты"
+                                   required="" autofocus="">
+                        </div>
+                        <div class="form-group">
+    
+                            <input type="password" class="form-control" placeholder="Пароль"
+                                   required="">
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-lg btn-primary btn-block" type="submit">ВХОД</button>
+                        </div>
+                        <a class="btn btn-link" href="#">Забыли пароль?</a>
+                    </form>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    <section class="info">
+        <h2 class="info__title">Важная информация о переписи</h2>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="info__item">
+                    <div class="info__img">
+                        <img src="img/copyist.png" alt="">
+                    </div>
+                    <div class="info__name">Как выглядит переписчик?</div>
+                    <button class="btn btn-lg btn-primary btn-block" type="button" data-toggle="modal"
+                            data-target="#infoModal1">СМОТРЕТЬ
+                    </button>
+                </div>
+                <div class="info__item">
+                    <div class="info__img">
+                        <img src="img/copyist-2.png" alt="">
+                    </div>
+                    <div class="info__name">Образцы переписных листов</div>
+                    <button class="btn btn-lg btn-primary btn-block" type="button" data-toggle="modal"
+                            data-target="#infoModal2">СМОТРЕТЬ
+                    </button>
+                </div>
+                <div class="info__item">
+                    <div class="info__img">
+                        <img src="img/copyist-3.png" alt="">
+                    </div>
+                    <div class="info__name">Что такое перепись населения?</div>
+                    <button class="btn btn-lg btn-primary btn-block" type="button" data-toggle="modal"
+                            data-target="#infoModal3">ЧИТАТЬ</button>
+                </div>
+                <div class="info__item">
+                    <div class="info__img">
+                        <img src="img/copyist-4.png" alt="">
+                    </div>
+                    <div class="info__name">НПА/Методики</div>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">СКАЧАТЬ</button>
+                </div>
+                <div class="info__item">
+                    <div class="info__img">
+                        <img src="img/copyist-5.png" alt="">
+                    </div>
+                    <div class="info__name">История переписи</div>
+                    <button class="btn btn-lg btn-primary btn-block" type="button" data-toggle="modal"
+                            data-target="#infoModal5">ЧИТАТЬ
+                    </button>
+                </div>
+                <div class="info__item">
+                    <div class="info__img">
+                        <img src="img/copyist-6.png" alt="">
+                    </div>
+                    <div class="info__name">Политика<br>конфиденциальности</div>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">ЧИТАТЬ</button>
+                </div>
+            </div>
+        </div>
+        <!-- Как выглядит переписчик? -->
+        <div class="modal fade" id="infoModal1" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel1"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="copyist">
+                            <div class="copyist__header">
+                                <div class="copyist__img">
+                                    <img src="img/copyist.png" alt="">
+                                </div>
+                                <div class="copyist__txt">
+                                    <h4 class="modal-title" id="infoModalLabel1">Как выглядит переписчик?</h4>
+                                    <p>Переписчик обязан иметь при себе:</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="copyist__item">
+                                        <div class="copyist__img">
+                                            <img src="img/copyist-7.png" alt="">
+                                        </div>
+                                        <div class="copyist__txt">
+                                            удостоверение<br>
+                                            переписчика
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="copyist__item">
+                                        <div class="copyist__img">
+                                            <img src="img/copyist-8.png" alt="">
+                                        </div>
+                                        <div class="copyist__txt">
+                                            портфель с символикой<br>
+                                            переписи населения 2019
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="copyist__item">
+                                        <div class="copyist__img">
+                                            <img src="img/copyist-9.png" alt="">
+                                        </div>
+                                        <div class="copyist__txt">
+                                            шарф с символикой<br>
+                                            переписи населения 2019
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="copyist__item">
+                                        <div class="copyist__img">
+                                            <img src="img/copyist-10.png" alt="">
+                                        </div>
+                                        <div class="copyist__txt">
+                                            официальные бланки<br>
+                                            переписных листов
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Образцы переписных листов -->
+        <div class="modal fade" id="infoModal2" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel2"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                        <h4 class="modal-title" id="infoModalLabel2">Образцы переписных листов</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-body__name">ОБРАЗЕЦ</div>
+                        <div class="mb-4"><img src="img/obrazec.png" alt=""></div>
+                        <a class="btn btn-primary w-100" href="#">СКАЧАТЬ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Что такое перепись населения? -->
+        <div class="modal fade" id="infoModal3" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel3"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                        <h4 class="modal-title" id="infoModalLabel3">Национальная перепись населения Республики Казахстан</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Перепись населения&nbsp;&mdash; это процесс сбора демографических, экономических и&nbsp;социальных данных, характеризующих каждого жителя страны или территории по&nbsp;состоянию на&nbsp;определенный момент времени и&nbsp;получаемых на&nbsp;основе индивидуального опроса.<br />
+                            Национальная перепись населения проводится в&nbsp;Казахстане регулярно каждые десять лет, начиная с&nbsp;1897 года. Именно такой порядок ее&nbsp;проведения рекомендован <acronym title="Организация Объединённых Наций" lang="ru">ООН</acronym>. Последняя перепись населения в&nbsp;нашей стране состоялась в&nbsp;2009 году.<br />
+                            Проведение переписи населения позволит:<br />
+                            &mdash;&nbsp;получить надежные данные о&nbsp;численности, размещении и&nbsp;составе населения по&nbsp;полу, возрасту, семейному положению, национальности, уровню образования, данные об&nbsp;уровне жизни населения, его занятости в&nbsp;отраслях экономики;<br />
+                            &mdash;&nbsp;актуализировать существующие данные о&nbsp;населении и&nbsp;его характеристиках.<br />
+                            Кроме того, перепись позволит определить широкий круг более детализированных показателей, включая численность населения, его распределение по&nbsp;городской и&nbsp;сельской местности, брачному и&nbsp;семейному состоянию, степени владения языками, образовательному уровню, охвату обучением, числу и&nbsp;размеру домохозяйств, источникам средств существования, занятости и&nbsp;жилищным условиям.<br />
+                            Все эти индикаторы должны представить четкую статистическую <nobr>социально-экономическую</nobr> картину внутригосударственного устройства страны. Государству&nbsp;же, в&nbsp;свою очередь, итоги переписи дадут возможность на&nbsp;основе достоверных данных более точно выстраивать политический курс развития.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- История переписи -->
+        <div class="modal fade" id="infoModal5" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel5"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                        <h4 class="modal-title" id="infoModalLabel5">Национальная перепись Республики Казахстан 2009
+                            года</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Последняя перепись в&nbsp;нашей стране состоялась в&nbsp;1999 году.<br/>
+                            Национальная перепись населения 2009 года проводилась на&nbsp;основании Постановления
+                            Правительства РК&nbsp;от&nbsp;28 ноября 2007 года, а&nbsp;ее&nbsp;организатором являлось
+                            Агентство Республики Казахстан по&nbsp;статистике. Именно Агентству было поручено заниматься
+                            всеми подготовительными мероприятиями организационного и&nbsp;методологического характера,
+                            включая разработку программ переписи, подбором и&nbsp;обучением переписных кадров во&nbsp;всех
+                            регионах страны. В&nbsp;подготовке и&nbsp;проведении переписи населения Агентству оказывали
+                            содействие министерства и&nbsp;ведомства, отвечающие за&nbsp;перепись населения на&nbsp;подведомственных
+                            объектах и&nbsp;организациях. Ряд госорганов обеспечивали организационную поддержку переписи
+                            населения, а&nbsp;также предоставление из&nbsp;административных источников данных о&nbsp;населении.<br/>
+                            <nobr>Перепись-2009</nobr>
+                            проводилась посредством опроса каждого гражданина. Для этого были подготовлены специально
+                            уполномоченные и&nbsp;обученные работники (счетчики).<br/>
+                            Процедура проведения Национальной переписи населения в&nbsp;Казахстане стартовала 25 февраля
+                            2009 года и&nbsp;закончилась 6&nbsp;марта 2009 года. С&nbsp;6 по&nbsp;16&nbsp;марта был
+                            запланирован контрольный обход граждан. Первые предварительные итоги по&nbsp;численности
+                            населения с&nbsp;разбивкой по&nbsp;полу и&nbsp;местности проживания были обнародованы во&nbsp;втором
+                            полугодии 2009 года. Полные&nbsp;же данные, которые были получены в&nbsp;ходе этого масштабного
+                            мероприятия, обрабатывались в&nbsp;течение 2009&ndash;2010 годов, после чего их&nbsp;итоги вошли
+                            в&nbsp;единую информационную базу переписи населения.<br/>
+                            Вся информация хранится в&nbsp;Комитете по&nbsp;статистике в&nbsp;агрегированной форме в&nbsp;специально
+                            сформированной информационной базе данных. Собранные в&nbsp;ходе переписи индивидуальные
+                            сведения могут использоваться только в&nbsp;обобщенном виде в&nbsp;статистических целях.<br/>
+                            По&nbsp;итогам переписи 2009 года подготовлены справочники, сборники,
+                            <nobr>пресс-релизы</nobr>
+                            ,
+                            <nobr>пресс-выпуски</nobr>
+                            , статьи и&nbsp;другие статистические, аналитические и&nbsp;информационные материалы. Эти
+                            материалы представлены широкому кругу пользователей: Администрации Президента, Правительству,
+                            Парламенту, министерствам, ведомствам, агентствам. Их&nbsp;также смогут получить местные
+                            исполнительные органы, государственные вузы и&nbsp;библиотеки, международные организации,
+                            <nobr>научно-исследовательские</nobr>
+                            институты и&nbsp;другие учреждения.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video" id="video">
+        <h2 class="video__title">Видеоинструкции</h2>
+        <div class="video__inner variable-width">
+            <div class="video__item">
+                <img src="img/video-img.jpg" alt="">
+            </div>
+            <div class="video__item">
+                <img src="img/video-img.jpg" alt="">
+            </div>
+            <div class="video__item">
+                <img src="img/video-img.jpg" alt="">
+            </div>
+            <div class="video__item">
+                <img src="img/video-img.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="stages" id="stages">
+        <h2 class="stages__title">Важная информация о переписи</h2>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="stages__item">
+                    <div class="stages__img"><img src="img/stages.png" alt=""></div>
+                    <div class="stages__name">Подготовительный период</div>
+                    <div class="stages__anons">С 2017 года по 1-2 квартал 2019 года, который также включает пилотную перепись населения.</div>
+                </div>
+                <div class="stages__item">
+                    <div class="stages__img"><img src="img/copyist.png" alt=""></div>
+                    <div class="stages__name">Перепись</div>
+                    <div class="stages__anons">Второй этап - непосредственно сама перепись населения - 3 квартал 2019 года.</div>
+                </div>
+                <div class="stages__item">
+                    <div class="stages__img"><img src="img/copyist-2.png" alt=""></div>
+                    <div class="stages__name">Итоги</div>
+                    <div class="stages__anons">Последний этап включает в себя контрольный обход, обработку полученных данных, формирование и публикация итогов переписи. </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news" id="news">
+        <h2 class="news__title">Последние новости переписи</h2>
+        <div class="news__inner variable-width">
+            <div>
+                <div class="news__item">
+                    <div class="news__img">
+                        <img src="img/video-img.jpg" alt="">
+                        <div class="news__name">Lorem ipsum</div>
+                    </div>
+                    <div class="news__txt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna ut labore et dolore magna </p>
+                        <button class="btn btn-lg btn-primary" type="submit"><img src="img/btn-arrow.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="news__item">
+                    <div class="news__img">
+                        <img src="img/video-img.jpg" alt="">
+                        <div class="news__name">Lorem ipsum</div>
+                    </div>
+                    <div class="news__txt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna ut labore et dolore magna </p>
+                        <button class="btn btn-lg btn-primary" type="submit"><img src="img/btn-arrow.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="news__item">
+                    <div class="news__img">
+                        <img src="img/video-img.jpg" alt="">
+                        <div class="news__name">Lorem ipsum</div>
+                    </div>
+                    <div class="news__txt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna ut labore et dolore magna </p>
+                        <button class="btn btn-lg btn-primary" type="submit"><img src="img/btn-arrow.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <h2 class="contacts__title">Контакты</h2>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="contacts__item">
+                    <div class="contacts__name">Единый номер</div>
+                    <div class="contacts__anons">2019</div>
+                </div>
+                <div class="contacts__item">
+                    <div class="contacts__name">Электронная почта</div>
+                    <div class="contacts__anons">exampla@example.com</div>
+                </div>
+                <div class="contacts__item">
+                    <div class="contacts__name">Горячая линия</div>
+                    <div class="contacts__anons">+7 7172 123 456</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="link" id="link">
+        <h2 class="link__title">Полезные ссылки</h2>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="link__item align-self-center">
+                    <div class="link__name" data-toggle="modal" data-target="#linkModal1">Часто задаваемые
+                        вопросы</div>
+    
+                </div>
+                <div class="link__item">
+                    <div class="link__name">Социальные сети</div>
+                    <div class="link__socnet">
+                        <a class="socnet__item" href="#">
+                            <img src="img/fb-blue.png" alt="">
+                        </a>
+                        <a class="socnet__item" href="#">
+                            <img src="img/tw-blue.png" alt="">
+                        </a>
+                        <a class="socnet__item" href="#">
+                            <img src="img/inst-blue.png" alt="">
+                        </a>
+                        <a class="socnet__item" href="#">
+                            <img src="img/vk-blue.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="link__item align-self-center">
+                    <div class="link__name" data-toggle="modal" data-target="#linkModal2">Заполнить форму обратной связи</div>
+                </div>
+            </div>
+        </div>
+        <!-- частные вопросы -->
+        <div class="modal fade" id="linkModal1" tabindex="-1" role="dialog" aria-labelledby="linkModalLabel1" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                        <h4 class="modal-title-v2" id="linkModalLabel1">Часто задаваемые вопросы</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p><b>Поле вопроса поле вопроса поле вопроса</b><br />
+                            Идейные соображения высшего порядка, а&nbsp;также рамки и&nbsp;место обучения кадров представляет собой интересный эксперимент проверки дальнейших направлений развития. Равным образом рамки и&nbsp;место обучения кадров позволяет оценить значение существенных финансовых и&nbsp;административных условий.</p>
+                        <p><b>Поле вопроса поле вопроса поле вопроса</b><br />
+                            Идейные соображения высшего порядка, а&nbsp;также рамки и&nbsp;место обучения кадров представляет собой интересный эксперимент проверки дальнейших направлений развития. Равным образом рамки и&nbsp;место обучения кадров позволяет оценить значение существенных финансовых и&nbsp;административных условий.</p>
+                        <p><b>Поле вопроса поле вопроса поле вопроса</b><br />
+                            Идейные соображения высшего порядка, а&nbsp;также рамки и&nbsp;место обучения кадров представляет собой интересный эксперимент проверки дальнейших направлений развития. Равным образом рамки и&nbsp;место обучения кадров позволяет оценить значение существенных финансовых и&nbsp;административных условий.</p>
+                        <p><b>Поле вопроса поле вопроса поле вопроса</b><br />
+                            Идейные соображения высшего порядка, а&nbsp;также рамки и&nbsp;место обучения кадров представляет собой интересный эксперимент проверки дальнейших направлений развития. Равным образом рамки и&nbsp;место обучения кадров позволяет оценить значение существенных финансовых и&nbsp;административных условий.</p>
+                        <p><b>Поле вопроса поле вопроса поле вопроса</b><br />
+                            Идейные соображения высшего порядка, а&nbsp;также рамки и&nbsp;место обучения кадров представляет собой интересный эксперимент проверки дальнейших направлений развития. Равным образом рамки и&nbsp;место обучения кадров позволяет оценить значение существенных финансовых и&nbsp;административных условий.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- обратная форма -->
+        <div class="modal fade" id="linkModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                        <h4 class="modal-title" id="myModalLabel">ОБРАТНАЯ СВЯЗЬ</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Введите ваши ФИО">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Введите ваш номер телефона">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="message-text" placeholder="Введите ваш вопрос"></textarea>
+                            </div>
+                            <input type="submit" class="btn btn-primary" value="ОТПРАВИТЬ">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3 class="footer__title">О ПЕРЕПИСИ</h3>
+                    <hr>
+                    <ul class="footer__list">
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">НПА/Методики</a></li>
+                        <li><a href="#">Что такое Перепись населения?</a></li>
+                        <li><a href="#">Этапы проведения<br>
+                            переписи населения 2019</a></li>
+                        <li><a href="#">История переписи населения 2009</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h3 class="footer__title">ВАЖНАЯ ИНФОРМАЦИЯ</h3>
+                    <hr>
+                    <ul class="footer__list">
+                        <li><a href="#">Как выглядит переписчик<br>
+                            (регистратор)?</a></li>
+                        <li><a href="#">Образцы переписных листов</a></li>
+                        <li><a href="#">Видеоинструкции</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h3 class="footer__title">ПОЛЕЗНЫЕ ССЫЛКИ</h3>
+                    <hr>
+                    <ul class="footer__list">
+                        <li><a href="#">Обратная связь</a></li>
+                        <li><a href="#">Часто задаваемые вопросы</a></li>
+                    </ul>
+                    <a class="footer__tel" href="tel:+777777777777">+7 777 777 77777</a>
+                    <a class="footer__mail" href="mailto:example@example.com">example@example.com</a>
+    
+                    <div class="footer__socnet">
+                        <a class="socnet__item" href="#">
+                            <img src="img/fb.png" alt="">
+                        </a>
+                        <a class="socnet__item" href="#">
+                            <img src="img/tw.png" alt="">
+                        </a>
+                        <a class="socnet__item" href="#">
+                            <img src="img/inst.png" alt="">
+                        </a>
+                        <a class="socnet__item" href="#">
+                            <img src="img/vk.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="js/population.js"></script>
+</body>
+</html>

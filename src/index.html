@@ -18,73 +18,39 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbar1">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto" id="menu">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Новости</a>
+                        <a class="nav-link" href="#news">Новости</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Видеоинструкции</a>
+                        <a class="nav-link" href="#video">Видеоинструкции</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Этапы переписи</a>
+                        <a class="nav-link" href="#stages">Этапы переписи</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Контакты</a>
+                        <a class="nav-link" href="#contacts">Контакты</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Полезные ссылки</a>
+                        <a class="nav-link" href="#link">Полезные ссылки</a>
                     </li>
                 </ul>
                 <div class="my-2 my-lg-0">
-                    <button class="" type="button" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <div class="dropdown">
+                        <button class="btn btn-toggler dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span></span>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </nav>
-    <section class="header jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 align-self-center">
-                    <div class="header__title">ХАЛЫҚ САНАҒЫ 2019</div>
-                    <div class="header__title">ПЕРЕПИСЬ НАСЕЛЕНИЯ 2019</div>
-                    <p>Перепись населения&nbsp;&mdash; это процесс сбора демографических, экономических и&nbsp;социальных
-                        данных, характеризующих каждого жителя страны или территории по&nbsp;состоянию на&nbsp;определенный
-                        момент времени и&nbsp;получаемых на&nbsp;основе индивидуального опроса.</p>
-                    <p>
-                    <div class="btn btn-primary my-2">Main call to action</div>
-                    <div class="btn btn-secondary my-2">Secondary action</div>
-                    </p>
-                </div>
-                <div class="col-lg-6">
-                    <form class="form-signin">
-                        <div class="form-signin__img"><img src="img/logo.svg" alt=""></div>
-                        <h2 class="form-signin__title">Пройти перепись населения<br> в&nbsp;онлайн режиме</h2>
-                        <div class="form-group d-flex justify-content-between">
-                            <a href="#" class="form-signin__in">Вход</a>
-                            <a href="#" class="form-signin__reg">Регистрация</a>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control"
-                                   placeholder="Введите адрес электронной почты"
-                                   required="" autofocus="">
-                        </div>
-                        <div class="form-group">
-
-                            <input type="password" class="form-control" placeholder="Пароль"
-                                   required="">
-                        </div>
-                        <div class="form-group">
-                            <button class="btn btn-lg btn-primary btn-block" type="submit">ВХОД</button>
-                        </div>
-                        <a class="btn btn-link" href="#">Забыли пароль?</a>
-                    </form>
-                </div>
-            </div>
-
-        </div>
-    </section>
+    //= template/header.html
     //= template/info.html
     //= template/video.html
     //= template/stages.html
