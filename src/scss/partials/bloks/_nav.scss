@@ -28,6 +28,7 @@
 	.btn-toggler{
 		position: relative;
 		outline: none;
+		box-shadow: none;
 		&:before{
 			content: '';
 			position: absolute;

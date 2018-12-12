@@ -33,16 +33,44 @@
 		border-radius: 0;
 	}
 	&__in{
-		color: #000;
+		color: #808080;
 		font-size: 24px;
-		font-weight: bold;
+		&.active{
+			color: #000;
+			font-weight: bold;
+		}
 	}
 	&__reg{
 		color: #808080;
-		font-size: 22px;
+		font-size: 24px;
+		&.active{
+			color: #000;
+			font-weight: bold;
+		}
 
 	}
 	.btn-block{
 		margin: 50px 0 20px;
+	}
+	.custom-select {
+		display: inline-block;
+		width: 100%;
+		height: auto;
+		padding: 0.375rem 2.75rem 0.375rem 0;
+		line-height: 1.5;
+		color: #808080;
+		vertical-align: middle;
+		background: #fff url('../img/select-arrow.png') no-repeat right 0.75rem center;
+		background-size: 19px 11px;
+		border: 0;
+		border-bottom: 2px solid #cccccc;
+		border-radius: 0;
+		white-space: normal;
+	}
+
+	.custom-select:focus {
+		border-color: #80bdff;
+		outline: 0;
+		box-shadow: 0 0 0 0.2rem rgba(128, 189, 255, 0.5);
 	}
 }

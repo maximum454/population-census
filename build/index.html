@@ -111,7 +111,7 @@
                         <div class="form-signin__img"><img src="img/logo.svg" alt=""></div>
                         <h2 class="form-signin__title">Пройти перепись населения<br> в&nbsp;онлайн режиме</h2>
                         <div class="form-group d-flex justify-content-between">
-                            <a href="#" class="form-signin__in">Вход</a>
+                            <a href="#" class="form-signin__in active">Вход</a>
                             <a href="#" class="form-signin__reg" data-toggle="modal"
                                data-target="#regModal">Регистрация</a>
                         </div>
@@ -126,7 +126,7 @@
                                    required="">
                         </div>
     
-                            <button class="btn btn-lg btn-primary btn-block" type="submit">ВХОД</button>
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">ВХОД</button>
     
                         <a class="btn btn-link" href="#">Забыли пароль?</a>
                     </form>
@@ -136,29 +136,84 @@
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
     
-                                    <form class="form-signin">
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
-                                        <div class="form-signin__img"><img src="img/logo.svg" alt=""></div>
-                                        <h2 class="form-signin__title">Пройти перепись населения<br> в&nbsp;онлайн режиме</h2>
-                                        <div class="form-group d-flex justify-content-between">
-                                            <a href="#" class="form-signin__in">Вход</a>
-                                            <a href="#" class="form-signin__reg">Регистрация</a>
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="email" class="form-control"
-                                                   placeholder="Введите адрес электронной почты"
-                                                   required="" autofocus="">
-                                        </div>
-                                        <div class="form-group">
+                                <form class="form-signin tabs">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                                    <div class="form-signin__img"><img src="img/logo.svg" alt=""></div>
+                                    <h2 class="form-signin__title">Пройти перепись населения<br> в&nbsp;онлайн режиме</h2>
+                                    <div class="form-group d-flex justify-content-between">
+                                        <a href="#" class="form-signin__in">Вход</a>
+                                        <a href="#" class="form-signin__reg active">Регистрация</a>
+                                    </div>
     
-                                            <input type="password" class="form-control" placeholder="Пароль"
-                                                   required="">
+                                    <div class="form-group">
+                                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                This dropdown's menu is right-aligned
+                                            </button>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <button class="dropdown-item" type="button">Action</button>
+                                                <button class="dropdown-item" type="button">Another action</button>
+                                                <button class="dropdown-item" type="button">Something else here</button>
+                                            </div>
+                                        <ul class="hide">
+                                            <li class="table__tab active">
+                                                Респондент, временно находящийся
+                                                    в данном населенном пункте, но
+                                                    постоянно проживающий в другом
+                                                    населенном пункте РК
+                                            </li>
+                                            <li class="table__tab">
+                                                Респондент, постоянно проживающий за границей, временно
+                                                    находящийся в Республики Казахстан.
+                                            </li>
+                                            <li class="table__tab">Респондент, временно находящийся
+                                                в данном населенном пункте, но
+                                                постоянно проживающий в другом
+                                                населенном пункте РК</li>
+                                            <li class="table__tab">Лицо без гражданства</option></li>
+                                            <li class="table__tab">гражданин другой страны</option></li>
+                                            <li class="table__tab">Гражданин Республики Казахстан,
+                                                проживающий за пределами РК</li>
+                                            <li class="table__tab">Гражданин Республики Казахстан,
+                                                проживающий в Республике Казахстан</li>
+                                        </ul>
+                                    </div>
+                                    <div class="table__contant">
+                                        <div class="tab">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control"
+                                                       placeholder="Введите адрес электронной почты" required=""
+                                                       autofocus="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" placeholder="Пароль"
+                                                       required="">
+                                            </div>
                                         </div>
-    
-                                        <button class="btn btn-lg btn-primary btn-block" type="submit">ВХОД</button>
-    
-                                        <a class="btn btn-link" href="#">Забыли пароль?</a>
-                                    </form>
+                                        <div class="tab">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control"
+                                                       placeholder="Введите адрес электронной почты" required=""
+                                                       autofocus="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" placeholder="Пароль"
+                                                       required="">
+                                            </div>
+                                        </div>
+                                        <div class="tab">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control"
+                                                       placeholder="Введите адрес электронной почты" required=""
+                                                       autofocus="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" placeholder="Пароль"
+                                                       required="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-lg btn-primary btn-block" type="submit">ВХОД</button>
+                                </form>
     
                             </div>
                         </div>
