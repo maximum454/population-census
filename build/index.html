@@ -112,7 +112,8 @@
                         <h2 class="form-signin__title">Пройти перепись населения<br> в&nbsp;онлайн режиме</h2>
                         <div class="form-group d-flex justify-content-between">
                             <a href="#" class="form-signin__in">Вход</a>
-                            <a href="#" class="form-signin__reg">Регистрация</a>
+                            <a href="#" class="form-signin__reg" data-toggle="modal"
+                               data-target="#regModal">Регистрация</a>
                         </div>
                         <div class="form-group">
                             <input type="email" class="form-control"
@@ -124,11 +125,40 @@
                             <input type="password" class="form-control" placeholder="Пароль"
                                    required="">
                         </div>
-                        <div class="form-group">
-                            <button class="btn btn-lg btn-primary btn-block" type="submit">ВХОД</button>
-                        </div>
+    
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">ВХОД</button>
+    
                         <a class="btn btn-link" href="#">Забыли пароль?</a>
                     </form>
+                    <!-- Пройти перепись населения в онлайн режиме -->
+                    <div class="modal fade" id="regModal" tabindex="-1" role="dialog" aria-labelledby="regModalLabel"
+                         aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                            <form class="form-signin">
+                                <div class="form-signin__img"><img src="img/logo.svg" alt=""></div>
+                                <h2 class="form-signin__title">Пройти перепись населения<br> в&nbsp;онлайн режиме</h2>
+                                <div class="form-group d-flex justify-content-between">
+                                    <a href="#" class="form-signin__in">Вход</a>
+                                    <a href="#" class="form-signin__reg">Регистрация</a>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control"
+                                           placeholder="Введите адрес электронной почты"
+                                           required="" autofocus="">
+                                </div>
+                                <div class="form-group">
+    
+                                    <input type="password" class="form-control" placeholder="Пароль"
+                                           required="">
+                                </div>
+    
+                                <button class="btn btn-lg btn-primary btn-block" type="submit">ВХОД</button>
+    
+                                <a class="btn btn-link" href="#">Забыли пароль?</a>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
     
@@ -143,7 +173,7 @@
                         <img src="img/copyist.png" alt="">
                     </div>
                     <div class="info__name">Как выглядит переписчик?</div>
-                    <button class="btn btn-lg btn-primary btn-block" type="button" data-toggle="modal"
+                    <button class="btn btn-lg btn-primary" type="button" data-toggle="modal"
                             data-target="#infoModal1">СМОТРЕТЬ
                     </button>
                 </div>
@@ -152,7 +182,7 @@
                         <img src="img/copyist-2.png" alt="">
                     </div>
                     <div class="info__name">Образцы переписных листов</div>
-                    <button class="btn btn-lg btn-primary btn-block" type="button" data-toggle="modal"
+                    <button class="btn btn-lg btn-primary" type="button" data-toggle="modal"
                             data-target="#infoModal2">СМОТРЕТЬ
                     </button>
                 </div>
@@ -161,7 +191,7 @@
                         <img src="img/copyist-3.png" alt="">
                     </div>
                     <div class="info__name">Что такое перепись населения?</div>
-                    <button class="btn btn-lg btn-primary btn-block" type="button" data-toggle="modal"
+                    <button class="btn btn-lg btn-primary" type="button" data-toggle="modal"
                             data-target="#infoModal3">ЧИТАТЬ</button>
                 </div>
                 <div class="info__item">
@@ -169,14 +199,14 @@
                         <img src="img/copyist-4.png" alt="">
                     </div>
                     <div class="info__name">НПА/Методики</div>
-                    <button class="btn btn-lg btn-primary btn-block" type="submit">СКАЧАТЬ</button>
+                    <button class="btn btn-lg btn-primary" type="submit">СКАЧАТЬ</button>
                 </div>
                 <div class="info__item">
                     <div class="info__img">
                         <img src="img/copyist-5.png" alt="">
                     </div>
                     <div class="info__name">История переписи</div>
-                    <button class="btn btn-lg btn-primary btn-block" type="button" data-toggle="modal"
+                    <button class="btn btn-lg btn-primary" type="button" data-toggle="modal"
                             data-target="#infoModal5">ЧИТАТЬ
                     </button>
                 </div>
@@ -185,7 +215,7 @@
                         <img src="img/copyist-6.png" alt="">
                     </div>
                     <div class="info__name">Политика<br>конфиденциальности</div>
-                    <button class="btn btn-lg btn-primary btn-block" type="submit">ЧИТАТЬ</button>
+                    <button class="btn btn-lg btn-primary" type="submit">ЧИТАТЬ</button>
                 </div>
             </div>
         </div>

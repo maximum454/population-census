@@ -1,5 +1,6 @@
 .news{
 	padding: 60px 0;
+	margin-bottom: 100px;
 	&__title{
 		color: #3f8add;
 		font-size: 48px;
@@ -7,22 +8,22 @@
 		line-height: 1;
 		text-align: center;
 		position: relative;
-		margin-bottom: 100px;
+		margin-bottom: 143px;
 		&:after{
 			content: '';
 			position: absolute;
 			left: 50%;
-			bottom: -40px;
+			bottom: -48px;
 			transform: translate(-50%,0);
 			background-color: #3f8add;
-			width: 200px;
+			width: 206px;
 			height: 10px;
 		}
 	}
 	&__item{
 		max-width: 320px;
 		margin: 0 13px;
-		border-radius: 30px;
+		border-radius: 50px;
 		background-color: #3f8add;
 		overflow: hidden;
 	}
@@ -52,7 +53,7 @@
 	&__txt{
 		color: #fff;
 		text-align: center;
-		padding: 40px;
+		padding: 35px 40px 26px;
 	}
 	.btn{
 		padding-left: 30px;
