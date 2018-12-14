@@ -61,4 +61,12 @@
 	&__anons{
 		font-size: 18px;
 	}
+	@include r(1200){
+		&__item{
+			&:after{
+				display: none;
+			}
+
+		}
+	}
 }

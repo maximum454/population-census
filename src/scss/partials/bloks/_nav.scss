@@ -25,6 +25,37 @@
 		padding-right: 1rem!important;
 		padding-left: 1rem!important;
 	}
+	.navbar-toggler{
+		position: relative;
+		outline: none;
+		box-shadow: none;
+		&:before{
+			content: '';
+			position: absolute;
+			top: -2px;
+			left: 12px;
+			background-color: #003c7f;
+			width: 33px;
+			height: 3px;
+		}
+		&:after{
+			content: '';
+			position: absolute;
+			bottom: -2px;
+			left: 12px;
+			background-color: #003c7f;
+			width: 33px;
+			height: 3px;
+			border: none;
+			margin: 0;
+		}
+		span{
+			display: block;
+			background-color: #003c7f;
+			width: 33px;
+			height: 3px;
+		}
+	}
 	.btn-toggler{
 		position: relative;
 		outline: none;

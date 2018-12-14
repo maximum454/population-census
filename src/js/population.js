@@ -33,8 +33,8 @@ $(function () {
             showPage = function(i){
                 $(tabs).find(".tab").hide();
                 $(tabs).find(".tab").eq(i).show();
-                $(tabs).find(".dropdown-item").removeClass("active");
-                $(tabs).find(".dropdown-item").eq(i).addClass("active");
+                $(tabs).find(".table__tab").removeClass("active");
+                $(tabs).find(".table__tab").eq(i).addClass("active");
             }
 
             showPage(0);

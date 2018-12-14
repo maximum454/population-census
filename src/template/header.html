@@ -1,7 +1,7 @@
 <section class="header jumbotron">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 align-self-center">
+            <div class="col-lg-6 align-self-center mb-sm-4">
                 <div class="header__title">ХАЛЫҚ САНАҒЫ 2019</div>
                 <div class="header__title mb-4">ПЕРЕПИСЬ НАСЕЛЕНИЯ 2019</div>
                 <p class="mb-4">Перепись населения&nbsp;&mdash; это процесс сбора демографических, экономических и&nbsp;социальных
@@ -44,7 +44,7 @@
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
 
-                            <form class="form-signin tabs">
+                            <form class="form-signin">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
                                 <div class="form-signin__img"><img src="img/logo.svg" alt=""></div>
                                 <h2 class="form-signin__title">Пройти перепись населения<br> в&nbsp;онлайн режиме</h2>
@@ -52,75 +52,256 @@
                                     <a href="#" class="form-signin__in">Вход</a>
                                     <a href="#" class="form-signin__reg active">Регистрация</a>
                                 </div>
-
-                                <div class="form-group">
-                                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            This dropdown's menu is right-aligned
+                                <div class="tabs">
+                                    <div class="form-group">
+                                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false">
+                                            Респондент, временно находящийся
+                                            в&nbsp;данном населенном пункте, но
+                                            постоянно проживающий в&nbsp;другом
+                                            населенном пункте&nbsp;РК
                                         </button>
                                         <div class="dropdown-menu dropdown-menu-right">
-                                            <button class="dropdown-item" type="button">Action</button>
-                                            <button class="dropdown-item" type="button">Another action</button>
-                                            <button class="dropdown-item" type="button">Something else here</button>
-                                        </div>
-                                    <ul class="hide">
-                                        <li class="table__tab active">
-                                            Респондент, временно находящийся
+                                            <button class="dropdown-item table__tab" type="button">Респондент, временно находящийся
                                                 в данном населенном пункте, но
                                                 постоянно проживающий в другом
-                                                населенном пункте РК
-                                        </li>
-                                        <li class="table__tab">
-                                            Респондент, постоянно проживающий за границей, временно
-                                                находящийся в Республики Казахстан.
-                                        </li>
-                                        <li class="table__tab">Респондент, временно находящийся
-                                            в данном населенном пункте, но
-                                            постоянно проживающий в другом
-                                            населенном пункте РК</li>
-                                        <li class="table__tab">Лицо без гражданства</option></li>
-                                        <li class="table__tab">гражданин другой страны</option></li>
-                                        <li class="table__tab">Гражданин Республики Казахстан,
-                                            проживающий за пределами РК</li>
-                                        <li class="table__tab">Гражданин Республики Казахстан,
-                                            проживающий в Республике Казахстан</li>
-                                    </ul>
+                                                населенном пункте РК</button>
+                                            <button class="dropdown-item table__tab" type="button">Респондент, постоянно проживающий за границей, временно
+                                                находящийся в Республики Казахстан.</button>
+                                            <button class="dropdown-item table__tab" type="button">Респондент, временно находящийся
+                                                в данном населенном пункте, но
+                                                постоянно проживающий в другом
+                                                населенном пункте РК</button>
+                                            <button class="dropdown-item table__tab" type="button">Лицо без гражданства</button>
+                                            <button class="dropdown-item table__tab" type="button">гражданин другой страны</button>
+                                            <button class="dropdown-item table__tab" type="button">Гражданин Республики Казахстан,
+                                                проживающий за пределами РК</button>
+                                            <button class="dropdown-item table__tab" type="button">Гражданин Республики Казахстан,
+                                                проживающий в Республике Казахстан</button>
+                                        </div>
+                                    </div>
+                                    <div class="table__contant">
+                                        <div class="tab">
+                                            <div class="from-group">
+                                                <button class="btn btn-lg btn-primary btn-block" type="submit">ВХОД</button>
+                                            </div>
+                                        </div>
+                                        <div class="tab">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="ИИН"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <select class="custom-select" name="" id="">
+                                                    <option value="">Удостоверяющий личность документ</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Номер документа"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Годен до"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" placeholder="Пароль"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" placeholder="Подтверждение пароля "
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="Введите адрес электронной почты"
+                                                       required="">
+                                            </div>
+                                            <div class="from-group">
+                                                <button class="btn btn-lg btn-primary btn-block" type="submit">Далее</button>
+                                                <button class="btn btn-lg btn-secondary btn-block" type="reset">Сброс</button>
+                                            </div>
+                                        </div>
+                                        <div class="tab">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="ИИН"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <select class="custom-select" name="" id="">
+                                                    <option value="">Удостоверяющий личность документ</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Номер документа"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Годен до"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" placeholder="Пароль"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" placeholder="Подтверждение пароля "
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="Введите адрес электронной почты"
+                                                       required="">
+                                            </div>
+                                            <div class="from-group">
+                                                <button class="btn btn-lg btn-primary btn-block" type="submit">Далее</button>
+                                                <button class="btn btn-lg btn-secondary btn-block" type="reset">Сброс</button>
+                                            </div>
+                                        </div>
+                                        <div class="tab">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="ИИН"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <select class="custom-select" name="" id="">
+                                                    <option value="">Удостоверяющий личность документ</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Номер документа"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Годен до"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" placeholder="Пароль"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" placeholder="Подтверждение пароля "
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="Введите адрес электронной почты"
+                                                       required="">
+                                            </div>
+                                            <div class="from-group">
+                                                <button class="btn btn-lg btn-primary btn-block" type="submit">Далее</button>
+                                                <button class="btn btn-lg btn-secondary btn-block" type="reset">Сброс</button>
+                                            </div>
+                                        </div>
+                                        <div class="tab">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="ИИН"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <select class="custom-select" name="" id="">
+                                                    <option value="">Удостоверяющий личность документ</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Номер документа"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Годен до"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" placeholder="Пароль"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" placeholder="Подтверждение пароля "
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="Введите адрес электронной почты"
+                                                       required="">
+                                            </div>
+                                            <div class="from-group">
+                                                <button class="btn btn-lg btn-primary btn-block" type="submit">Далее</button>
+                                                <button class="btn btn-lg btn-secondary btn-block" type="reset">Сброс</button>
+                                            </div>
+                                        </div>
+                                        <div class="tab">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="ИИН"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <select class="custom-select" name="" id="">
+                                                    <option value="">Удостоверяющий личность документ</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Номер документа"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Годен до"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" placeholder="Пароль"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" placeholder="Подтверждение пароля "
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="Введите адрес электронной почты"
+                                                       required="">
+                                            </div>
+                                            <div class="from-group">
+                                                <button class="btn btn-lg btn-primary btn-block" type="submit">Далее</button>
+                                                <button class="btn btn-lg btn-secondary btn-block" type="reset">Сброс</button>
+                                            </div>
+                                        </div>
+                                        <div class="tab">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="ИИН"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <select class="custom-select" name="" id="">
+                                                    <option value="">Удостоверяющий личность документ</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Номер документа"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Годен до"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" placeholder="Пароль"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" placeholder="Подтверждение пароля "
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="Введите адрес электронной почты"
+                                                       required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Мобильный номер"
+                                                       required="">
+                                            </div>
+                                            <div class="from-group">
+                                                <button class="btn btn-lg btn-primary btn-block" type="submit">Далее</button>
+                                                <button class="btn btn-lg btn-secondary btn-block" type="reset">Сброс</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="table__contant">
-                                    <div class="tab">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control"
-                                                   placeholder="Введите адрес электронной почты" required=""
-                                                   autofocus="">
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="password" class="form-control" placeholder="Пароль"
-                                                   required="">
-                                        </div>
-                                    </div>
-                                    <div class="tab">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control"
-                                                   placeholder="Введите адрес электронной почты" required=""
-                                                   autofocus="">
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="password" class="form-control" placeholder="Пароль"
-                                                   required="">
-                                        </div>
-                                    </div>
-                                    <div class="tab">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control"
-                                                   placeholder="Введите адрес электронной почты" required=""
-                                                   autofocus="">
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="password" class="form-control" placeholder="Пароль"
-                                                   required="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <button class="btn btn-lg btn-primary btn-block" type="submit">ВХОД</button>
                             </form>
 
                         </div>
