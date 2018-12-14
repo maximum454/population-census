@@ -51,5 +51,10 @@ $(function () {
         return this.each(createTabs);
     };
     $(".tabs").lightTabs();
+
+    $('.table__tab').on('click', function () {
+        var name = $(this).text();
+        $('#dropdown-toggle').text(name);
+    })
 });
 
