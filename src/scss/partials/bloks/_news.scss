@@ -39,24 +39,32 @@
 			}
 			.news__txt{
 				width: 555px;
+				padding: 53px 108px;
 				text-align: left;
+
 				.news__name{
 					display: block;
 					position: relative;
 					bottom: auto;
 					left: auto;
-					padding: 10px;
+					padding: 0;
 					color: #fff;
 					font-size: 24px;
 					font-weight: bold;
-					text-align: center;
+					text-align: left;
 					background-color: transparent;
 					width: 100%;
+					margin-bottom: 60px;
+				}
+				p{
+					font-size: 16px;
+					line-height: 18px;
 				}
 			}
 			.btn{
 				display: block;
-				margin: 0 auto;
+				margin-right: 0;
+				margin-left: auto;
 			}
 		}
 

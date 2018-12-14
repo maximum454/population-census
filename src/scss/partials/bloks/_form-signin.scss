@@ -24,14 +24,20 @@
 
 	.btn-link{
 		color: #808080;
+		font-size: 20px;
 	}
 	input{
-
 		padding-left: 0;
 		padding-right: 0;
 		border: none;
 		border-bottom: 2px solid #cccccc;
 		border-radius: 0;
+		&:focus{
+			outline: none;
+			border-color: transparent;
+			box-shadow: none;
+			border-bottom: 2px solid #cccccc;
+		}
 	}
 	&__in{
 		color: #808080;
@@ -44,6 +50,11 @@
 	&__reg{
 		color: #808080;
 		font-size: 24px;
+		text-decoration: none;
+		&:hover{
+			color: #808080;
+			text-decoration: none;
+		}
 		&.active{
 			color: #000;
 			font-weight: bold;
