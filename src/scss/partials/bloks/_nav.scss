@@ -17,7 +17,7 @@
 		}
 	}
 	&__auth{
-		margin-right: 40px;
+		margin-right: 44px;
 	}
 	&__lang{
 
@@ -25,21 +25,21 @@
 			display: inline-block;
 			margin: 0 2px;
 			color: #003c7f;
-			font-size: 18px;
+			font-size: 16px;
 			opacity: .3;
 			text-decoration: none;
 		}
 		.active{
 			color: #fff;
 			background-color: #3f8add;
-			padding: 10px;
-			border-radius: 8px;
+			padding: 7px;
+			border-radius: 12px;
 			opacity: 1;
 		}
 	}
 	.navbar-brand{
 		display: block;
-		margin-right: 60px;
+		margin-right: 50px;
 	}
 	.nav-link {
 		color: #003c7f;
@@ -84,7 +84,7 @@
 		outline: none;
 		box-shadow: none;
 		background-color: transparent;
-		margin-right: 30px;
+		margin-right: 20px;
 		&:before{
 			content: '';
 			position: absolute;
