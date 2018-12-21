@@ -4,7 +4,7 @@
 	background-position: center;
 	background-size: cover;
 	position: relative;
-	padding: 75px 0;
+	padding: 66px 0;
 	color: #fff;
 	font-family: $fonts2;
 	&:before{
@@ -23,11 +23,19 @@
 		max-width: 100%;
 	}
 	&__title{
-		font-size: 44px;
+		font-size: 40px;
 		line-height: 1;
 		font-weight: bold;
 		text-transform: uppercase;
 	}
+	&__txt{
+		max-width: 550px;
+		font-size: 21px;
+		font-weight: normal;
+		font-family: $fonts2;
+		line-height: 1.5;
+	}
+
 	.modal{
 		.modal-dialog{
 			max-width: 1340px;

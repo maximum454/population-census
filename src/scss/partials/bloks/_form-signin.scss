@@ -1,25 +1,25 @@
 .form-signin{
 	background-color: #fff;
-	padding: 26px 115px 60px;
+	padding: 26px 100px 39px;
 	border-radius: 50px;
 	text-align: center;
-	max-width: 672px;
+	max-width: 588px;
 	position: relative;
 	margin-right: 0;
 	margin-left: auto;
 	&__img{
-		width: 91px;
-		margin: 0 auto 49px;
+		width: 78px;
+		margin: 0 auto 43px;
 	}
 	&__title{
 		color: #3f8add;
-		font-size: 24px;
+		font-size: 21px;
 		font-weight: 900;
 		line-height: 30px;
 		letter-spacing: 1px;
 		text-align: center;
 		text-transform: uppercase;
-		margin-bottom: 32px;
+		margin-bottom: 22px;
 	}
 
 	.btn-link{
@@ -62,7 +62,7 @@
 
 	}
 	.btn-block{
-		margin: 50px 0 20px;
+		margin: 41px 0 3px;
 	}
 
 	.dropdown-toggle,
@@ -92,7 +92,7 @@
 		}
 	}
 	.form-control{
-		font-size: 21px;
+		font-size: 18px;
 	}
 	.from-group{
 		display: flex;

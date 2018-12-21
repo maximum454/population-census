@@ -1,36 +1,37 @@
 .contacts{
 	padding: 30px 0;
-	margin-bottom: 70px;
+	margin-bottom: 32px;
 	&__title{
 		color: #3f8add;
-		font-size: 48px;
+		font-size: 42px;
 		font-weight: bold;
 		line-height: 1;
+		letter-spacing: -.2px;
 		text-align: center;
 		position: relative;
-		margin-bottom: 159px;
+		margin-bottom: 140px;
 		&:after{
 			content: '';
 			position: absolute;
 			left: 50%;
-			bottom: -48px;
+			bottom: -44px;
 			transform: translate(-50%,0);
 			background-color: #3f8add;
-			width: 206px;
+			width: 180px;
 			height: 10px;
 		}
 	}
 	&__item{
 		width: 100%;
-		max-width: 356px;
+		max-width: 317px;
 		margin: 0 11px 40px;
-		padding: 38px;
+		padding: 32px;
 		border: 4px solid #e7e7e7;
 		border-radius: 40px;
 		text-align: center;
 	}
 	&__name{
-		font-size: 20px;
+		font-size: 24px;
 		line-height: 1;
 		font-weight: bold;
 		text-align: center;
@@ -38,7 +39,7 @@
 	}
 	&__anons{
 		color: #3f8add;
-		font-size: 20px;
+		font-size: 24px;
 		line-height: 1;
 		font-weight: bold;
 		text-align: center;

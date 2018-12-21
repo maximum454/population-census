@@ -2,24 +2,29 @@
 	padding: 60px 0;
 	&__title{
 		color: #3f8add;
-		font-size: 48px;
+		font-size: 42px;
 		font-weight: bold;
 		line-height: 1;
+		letter-spacing: -.2px;
 		text-align: center;
 		position: relative;
-		margin-bottom: 100px;
+		margin-bottom: 128px;
 		&:after{
 			content: '';
 			position: absolute;
 			left: 50%;
-			bottom: -40px;
+			bottom: -44px;
 			transform: translate(-50%,0);
 			background-color: #3f8add;
-			width: 200px;
+			width: 180px;
 			height: 10px;
 		}
 	}
 	&__item{
+		max-width: 482px;
 		margin: 0 13px;
+		img{
+			max-width: 100%;
+		}
 	}
 }
